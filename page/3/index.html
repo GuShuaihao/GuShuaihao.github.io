@@ -1,213 +1,192 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>govT's Blog</title><meta name="author" content="govT"><meta name="copyright" content="govT"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Keep">
-<meta property="og:type" content="website">
-<meta property="og:title" content="govT&#39;s Blog">
-<meta property="og:url" content="http://gushuaihao.github.io/page/3/index.html">
-<meta property="og:site_name" content="govT&#39;s Blog">
-<meta property="og:description" content="Keep">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
-<meta property="article:author" content="govT">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://gushuaihao.github.io/page/3/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
-  copy: {
-    success: '复制成功',
-    error: '复制错误',
-    noSupport: '浏览器不支持'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: '',
-  dateSuffix: {
-    just: '刚刚',
-    min: '分钟前',
-    hour: '小时前',
-    day: '天前',
-    month: '个月前'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  infinitegrid: {
-    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
-    buttonText: '加载更多'
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false,
-  percent: {
-    toc: true,
-    rightside: false,
-  },
-  autoDarkmode: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'govT\'s Blog',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2024-10-28 09:54:16'
-}</script><script>(win=>{
-      win.saveToLocal = {
-        set: (key, value, ttl) => {
-          if (ttl === 0) return
-          const now = Date.now()
-          const expiry = now + ttl * 86400000
-          const item = {
-            value,
-            expiry
-          }
-          localStorage.setItem(key, JSON.stringify(item))
-        },
-      
-        get: key => {
-          const itemStr = localStorage.getItem(key)
-      
-          if (!itemStr) {
-            return undefined
-          }
-          const item = JSON.parse(itemStr)
-          const now = Date.now()
-      
-          if (now > item.expiry) {
-            localStorage.removeItem(key)
-            return undefined
-          }
-          return item.value
-        }
-      }
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="govT">
+
+
+
+    <meta name="description" content="Keep">
+
+
+
+<title>govT&#39;s Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
     
-      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
-        const script = document.createElement('script')
-        script.src = url
-        script.async = true
-        script.onerror = reject
-        script.onload = script.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          script.onload = script.onreadystatechange = null
-          resolve()
-        }
-
-        Object.keys(attr).forEach(key => {
-          script.setAttribute(key, attr[key])
-        })
-
-        document.head.appendChild(script)
-      })
+    <link rel="stylesheet" href="/css/style.css">
     
-      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
-        const link = document.createElement('link')
-        link.rel = 'stylesheet'
-        link.href = url
-        if (id) link.id = id
-        link.onerror = reject
-        link.onload = link.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          link.onload = link.onreadystatechange = null
-          resolve()
-        }
-        document.head.appendChild(link)
-      })
+
+
+
+    <!-- scripts list from _config.yml -->
     
-      win.activateDarkMode = () => {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = () => {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
+    <script src="/js/script.js"></script>
     
-        if (t === 'dark') activateDarkMode()
-        else if (t === 'light') activateLightMode()
-      
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
+    <script src="/js/tocbot.min.js"></script>
     
-      const detectApple = () => {
-        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-          document.documentElement.classList.add('apple')
-        }
-      }
-      detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">21</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/INFINITE.png')"><nav id="nav"><span id="blog-info"><a href="/" title="govT's Blog"><span class="site-name">govT's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">govT's Blog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/09/3d_position_of_circle.hdev/" title="3d_position_of_circle.hdev">3d_position_of_circle.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-09T05:40:00.000Z" title="发表于 2024-10-09 13:40:00">2024-10-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/">Blob分析</a></span></div><div class="content">
-功能：提取圆轮廓并确定圆（钻孔）的3D位置，本地函数p_determine_ellipse_contours和p_cluster_normals的解析，附在主程序解析之后。THIK：把大小圆分开检测，只是为了提升准确度嘛（？）
 
 
-读取图像，设置窗口
 
-1234567dev_update_off ()read_image (Image, &#x27;rim&#x27;)get_image_size (Image, Width, Height)dev_open_window_fit_image (Image, 0, 0, Width, Height, WindowHandle)set_display_font (WindowHandle, 16, &#x27;mono&#x27;, &#x27;true&#x27;, &#x27;false&#x27;)dev_display (Image)dev_set_line_width (3)
+    
+    
+        
+    
 
 
-提取钻孔的椭圆轮廓，输出分为大和小两种轮廓。
+<meta name="generator" content="Hexo 7.3.0"></head>
 
-123* （本地函数）提取椭圆轮廓，分大小两类p_determine_ellipse_contour ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/28/Fields%20Division/" title="Fields Division">Fields Division</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-28T02:17:31.000Z" title="发表于 2022-04-28 10:17:31">2022-04-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">题目来源：
-2021-2022 ACM-ICPC Latin American Regional Programming Contest
-时间：
-2022.4.28
-题解：
-并查集 + 思维 （连通块思想）要保证A和B得到的田地的产量尽可能相等，所以肯定是A拿第n块田地，B拿第n-1块田地。然后剩下的田地，只要B能拿就拿（与第n-1块田相连的就能拿），剩下的给A。这样就能保证B的田地的产量尽可能大。因为第n块田的产量比【1，n-1】的田地的产量总和还要大，第n-1块田地同理。
-代码：
-1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859#include&lt;bits/stdc++.h&gt;using namespace std;typedef long long ll;#define endl &quot;\n&quot;#define inf 0x3f3f3f3f#define debug(x) cout&lt;&l ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/28/P1197%20%5BJSOI2008%5D%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98/" title="P1197 [JSOI2008]星球大战">P1197 [JSOI2008]星球大战</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-28T02:17:31.000Z" title="发表于 2022-04-28 10:17:31">2022-04-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">时间：
-2022.4.28
-题解：
-并查集 + 思维。正向难以求解，所以把题目反向理解为，一边添加点，一边求连通块个数。此时初始状态就是其他所有已经存在的点组成的图。根据 fa[i] &#x3D;&#x3D; i 统计联通块的个数。然后按照输入的逆序添加点，刚添加的点独立，所以是一个新的连通块，cnt++。然后枚举这个点相连的所有点，因为要连边。在它相连的点之间，如果存在一个点已经在图中出现，且它们两个不在一个连通块中，那么他们相连就会导致连通块数减一，即 cnt- -。
-代码：
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109#include&lt;bits/stdc++.h&gt;using nam ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/KIARA%20is%20a%20Recursive%20Acronym%EF%BC%882022.4.27%EF%BC%89/" title="KIARA is a Recursive Acronym（2022.4.27）">KIARA is a Recursive Acronym（2022.4.27）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-27T02:17:31.000Z" title="发表于 2022-04-27 10:17:31">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">题目来源:
-2021-2022 ACM-ICPC Latin American Regional Programming Contest
-题意：
-给定 n个字符串，用其中一部分字符串组成一句话（字符串可重复使用）。判断其中是否存在一个字符串，由这句话的所有单词的首字母组成。
-题解：
-模拟题。用map标记每个字符串的首字母。逐个判断字符串的所有元素，是否都被标记过。如果是，说明可以组成符合要求的一句话。
-代码：
-123456789101112131415161718192021222324252627void slove()&#123;	int n; cin&gt;&gt;n;	vector&lt;string&gt; s(n);	map&lt;char, int&gt; mp;	for(int i = 0; i &lt; n; i++)	&#123;		cin&gt;&gt;s[i];		mp[s[i][0]]++;	&#125;	int flag = 0;	for(int i = 0; i &lt; n; i++)	&#123;		flag = 0;		for(int j = 0;  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/03/04/%E9%9B%B6%E7%A2%8E%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%88%86%E5%B1%82%E5%9B%BE/" title="零碎算法——分层图">零碎算法——分层图</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-04T02:17:31.000Z" title="发表于 2022-03-04 10:17:31">2022-03-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">概念在图论中，比如最短路、网络流等，题目会有一些额外的对边的权值的操作。比如可以将一定数量的边权减半或者变为0，然后在此基础上求最优解。下图中，黑色的边相当于正常的建边，蓝色的边相当于一次特殊的权值操作（减半或者变0）。从一个点到另一个点，如果选择特殊操作，就从这一层到达下一层。建边操作的代码：空间复杂度O(mk)
-1234567891011121314151617cin&gt;&gt;n&gt;&gt;m&gt;&gt;k;while(m--) &#123;    int a, b, c; cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;    add(a, b, c);    add(b, a, c);    for(int j = 1; j &lt;= k; j++)    &#123;        // j层和j+1层之间建边，0代表特殊操作为 边的权值变为0        add(a+(j-1)*n, b+j*n, 0);        add(b+(j-1)*n, a+j*n, 0);                // j+1层建边        add( ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/03/01/STL(%E4%B8%BB%E8%A6%81%E5%87%BD%E6%95%B0%E5%8F%8A%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)/" title="STL(主要函数及时间复杂度)">STL(主要函数及时间复杂度)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-01T02:17:31.000Z" title="发表于 2022-03-01 10:17:31">2022-03-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">(总结ing)
-map特性key - value 键值对。map自动排序，每个key只出现一次。
-函数insert O(log n)
-erase O(log n)
-count O(log n)只会返回 0或者 1，判断某个数是否存在。
-find O(log n)若存在返回迭代器，否则返回 mp.end()
-12345678void slove()&#123;    map&lt;int, int&gt; mp;    mp[1]++; mp[1]++; mp[2]++;    auto it = mp.find(1);    cout&lt;&lt;it-&gt;first&lt;&lt;endl;    cout&lt;&lt;it-&gt;second&lt;&lt;endl;&#125;
-auto遍历i.second &#x3D; 0; 不改变原来的值。mp[i.first] &#x3D; 0; 可以改变。
-unordered_map特性 内部数据是无序的，甚至和初始时的顺序都不一样。
-函数函数与map基本一样。查找速度O(1)，其他方面耗时最坏能达到 O(n)，容易被卡。（待验 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/02/28/%E6%9D%BF%E5%AD%90%E2%80%94%E2%80%94%E5%9B%BE%E8%AE%BA%E4%B8%93%E9%A2%98/" title="板子——图论专题">板子——图论专题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-28T02:17:31.000Z" title="发表于 2022-02-28 10:17:31">2022-02-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">最短路dijkstra特点单源最短路，全是正权边。时间复杂度O(m logn)。
-代码
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103#include&lt;bits/stdc++.h&gt;using namespace std; typedef long long ll;#define endl &quot;\n&quot;#define IOS ios::sync_with_stdio(false); cin.tie(0)#define inf 0x3f3f3f3f#define pii pair&lt;int, int&gt;#define pll pair&lt;ll, ll&gt;#define pdd pair&lt;do ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/02/25/Codeforces%20Round%20773%20(Div.%202)%EF%BC%88%EF%BC%A1%EF%BC%A2%EF%BC%A3%EF%BC%A4%EF%BC%89/" title="Codeforces Round 773 (Div. 2)（ＡＢＣＤ）">Codeforces Round 773 (Div. 2)（ＡＢＣＤ）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-25T02:17:31.000Z" title="发表于 2022-02-25 10:17:31">2022-02-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">hello # he
-A. Hard Way题意：给定一个三角形，若从y &#x3D; 0上任意一点，无法通过线段到达三角形边上（线段不能通过三角形内部），计算这种边的总长度。
-题解：当且仅当，三角形上面的边是平行于x轴的情况下，存在答案。这条边的长度即为答案。
-代码：
-123456789101112void slove()&#123;	int T; cin&gt;&gt;T;	while(T--)	&#123;		ll x1, y1, x2, y2, x3, y3; cin&gt;&gt;x1&gt;&gt;y1&gt;&gt;x2&gt;&gt;y2&gt;&gt;x3&gt;&gt;y3;		if(y1 == y2 &amp;&amp;  y3 &lt; y2) cout&lt;&lt;abs(x2-x1)&lt;&lt;endl;		else if(y1 == y3 &amp;&amp;  y2 &lt; y1) cout&lt;&lt;abs(x1-x3)&lt;&lt;endl;		else if(y2 == y3 &amp;&amp;  y1 &lt; y3) cout& ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/01/14/ICPC%E2%80%94%E2%80%942021%E5%8F%B0%E6%B9%BE%E7%AB%99%EF%BC%88A%20B%20C%20D%20E%20J%EF%BC%89/" title="ICPC——2021台湾站（A B C D E J）">ICPC——2021台湾站（A B C D E J）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-14T02:17:31.000Z" title="发表于 2022-01-14 10:17:31">2022-01-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">A - Olympic Ranking题意：n支队伍，各有一定数量的金牌，银牌，铜牌。按照金牌 &gt; 银牌 &gt; 铜牌的优先级，找出最强的队伍。
-题解：题意简单，难点在于输入那个字符串。&lt;1&gt; 使用 getline和 string配合，然后输出的时候从第 1位输出而不是第 0位，会 wa12。&lt;2&gt; 我是手写了一个输入字符串的函数。&lt;3&gt; 我队友用的 map + tuple + string，也把代码附上，可以做个参考。（%%%
-代码：**&lt;2&gt;**
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051#include&lt;bits/stdc++.h&gt;using namespace std;#define endl &quot;\n&quot;#define ll long long#define inf 0x3f3f3f3f#define infll 1e15+7#define IOS i ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/01/11/Codeforces%20Round%20764%20(Div.%203)%EF%BC%88A%20B%20C%20D%20E%20F%20G%EF%BC%89/" title="Codeforces Round 764 (Div. 3)（A B C D E F G）">Codeforces Round 764 (Div. 3)（A B C D E F G）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-11T02:17:31.000Z" title="发表于 2022-01-11 10:17:31">2022-01-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/ACM/">ACM</a></span></div><div class="content">A - Plus One on the Subset题意：给定一个数组，你每次可以选择任意位置任意数量的数字加1，问需要几次能把数组所有的元素变成同样大小。
-题解：最小的元素变成最大的元素的次数就是答案，其他的元素在这个过程中就也能变成最大的。
-代码：
-1234567891011121314151617181920212223242526272829303132333435363738394041#include&lt;bits/stdc++.h&gt;using namespace std;#define endl &quot;\n&quot;#define ll long long#define inf 0x3f3f3f3f#define infll 1e15+7#define IOS ios::sync_with_stdio(0); cin.tie(0)#define debug(a) cout&lt;&lt;&quot;*****\tdebug: &quot;&lt;&lt;a&lt;&lt;&quot;\t*****&quot;&lt;&lt;endl;const doubl ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/2/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#content-inner">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/4/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">govT</div><div class="author-info__description">Keep</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">21</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/TCP%E5%AE%A2%E6%88%B7%E7%AB%AF/" title="TCP客户端">TCP客户端</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/tiff%E8%BD%ACpng/" title="tiff转png">tiff转png</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E5%8D%A1%E5%B0%BA%E5%B7%A5%E5%85%B7%E6%A3%80%E6%B5%8B%E5%9C%86/" title="卡尺工具检测圆">卡尺工具检测圆</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E5%9C%86%E5%BD%A2%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/" title="圆形划痕检测">圆形划痕检测</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E6%9D%A1%E7%8A%B6%E7%BA%B9%E7%90%86%E4%B8%8A%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/" title="条状纹理上划痕检测">条状纹理上划痕检测</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
-            <i class="fas fa-folder-open"></i>
-            <span>分类</span>
-            <a class="card-more-btn" href="/categories/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a>
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">govT&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACM/"><span class="card-category-list-name">ACM</span><span class="card-category-list-count">17</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/HALCON%E4%B8%8Ec-%E8%81%94%E5%90%88%E7%BC%96%E7%A8%8B/"><span class="card-category-list-name">HALCON与c#联合编程</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon/"><span class="card-category-list-name">Halcon</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/"><span class="card-category-list-name">Halcon示例程序</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/"><span class="card-category-list-name">Halcon方法</span><span class="card-category-list-count">14</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/"><span class="card-category-list-name">Blob分析</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/"><span class="card-category-list-name">划痕检测</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E5%9B%BE%E5%83%8F%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/"><span class="card-category-list-name">图像格式转换</span><span class="card-category-list-count">1</span></a></li></ul></li>
-            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">21</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/11/"><span class="card-archive-list-date">十一月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/09/"><span class="card-archive-list-date">九月 2021</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">38</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-10-28T01:54:16.734Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By govT</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">govT&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                
+    <div class="container profile-container">
+    <div class="intro">
+        <div class="avatar">
+            <a href="/archives"><img src="/image/avatar.jpeg"></a>
+        </div>
+        <div class="nickname">govT</div>
+        <div class="description"><p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> <br>Fusce eget urna vitae velit <em>eleifend interdum at ac</em> nisi.</p>
+</div>
+        <div class="links">
+            
+                
+                    <a class="link-item" title="Blog" href="/archives">
+                        
+                        
+                            <i class="iconfont icon-blog"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="ZhiHu" target="_blank" rel="noopener" href="https://www.zhihu.com/people/sirice">
+                        
+                        
+                            <i class="iconfont icon-zhihu"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Instagram" href="">
+                        
+                        
+                            <i class="iconfont icon-instagram"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Reddit" href="">
+                        
+                        
+                            <i class="iconfont icon-reddit"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Github" target="_blank" rel="noopener" href="https://github.com">
+                        
+                        
+                            <i class="iconfont icon-github"></i>
+                        
+                    </a>
+                
+            
+        </div>
+    </div>
+</div>
+
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© govT | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>

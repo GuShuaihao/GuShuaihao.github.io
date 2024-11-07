@@ -1,234 +1,192 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>govT's Blog</title><meta name="author" content="govT"><meta name="copyright" content="govT"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Keep">
-<meta property="og:type" content="website">
-<meta property="og:title" content="govT&#39;s Blog">
-<meta property="og:url" content="http://gushuaihao.github.io/page/2/index.html">
-<meta property="og:site_name" content="govT&#39;s Blog">
-<meta property="og:description" content="Keep">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
-<meta property="article:author" content="govT">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://gushuaihao.github.io/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
-  copy: {
-    success: '复制成功',
-    error: '复制错误',
-    noSupport: '浏览器不支持'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: '',
-  dateSuffix: {
-    just: '刚刚',
-    min: '分钟前',
-    hour: '小时前',
-    day: '天前',
-    month: '个月前'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  infinitegrid: {
-    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
-    buttonText: '加载更多'
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false,
-  percent: {
-    toc: true,
-    rightside: false,
-  },
-  autoDarkmode: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'govT\'s Blog',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2024-10-28 09:54:16'
-}</script><script>(win=>{
-      win.saveToLocal = {
-        set: (key, value, ttl) => {
-          if (ttl === 0) return
-          const now = Date.now()
-          const expiry = now + ttl * 86400000
-          const item = {
-            value,
-            expiry
-          }
-          localStorage.setItem(key, JSON.stringify(item))
-        },
-      
-        get: key => {
-          const itemStr = localStorage.getItem(key)
-      
-          if (!itemStr) {
-            return undefined
-          }
-          const item = JSON.parse(itemStr)
-          const now = Date.now()
-      
-          if (now > item.expiry) {
-            localStorage.removeItem(key)
-            return undefined
-          }
-          return item.value
-        }
-      }
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="govT">
+
+
+
+    <meta name="description" content="Keep">
+
+
+
+<title>govT&#39;s Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
     
-      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
-        const script = document.createElement('script')
-        script.src = url
-        script.async = true
-        script.onerror = reject
-        script.onload = script.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          script.onload = script.onreadystatechange = null
-          resolve()
-        }
-
-        Object.keys(attr).forEach(key => {
-          script.setAttribute(key, attr[key])
-        })
-
-        document.head.appendChild(script)
-      })
+    <link rel="stylesheet" href="/css/style.css">
     
-      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
-        const link = document.createElement('link')
-        link.rel = 'stylesheet'
-        link.href = url
-        if (id) link.id = id
-        link.onerror = reject
-        link.onload = link.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          link.onload = link.onreadystatechange = null
-          resolve()
-        }
-        document.head.appendChild(link)
-      })
+
+
+
+    <!-- scripts list from _config.yml -->
     
-      win.activateDarkMode = () => {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = () => {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
+    <script src="/js/script.js"></script>
     
-        if (t === 'dark') activateDarkMode()
-        else if (t === 'light') activateLightMode()
-      
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
+    <script src="/js/tocbot.min.js"></script>
     
-      const detectApple = () => {
-        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-          document.documentElement.classList.add('apple')
-        }
-      }
-      detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">21</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/INFINITE.png')"><nav id="nav"><span id="blog-info"><a href="/" title="govT's Blog"><span class="site-name">govT's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">govT's Blog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/24/board.hdev/" title="board.hdev">board.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-23T16:00:00.000Z" title="发表于 2024-10-24 00:00:00">2024-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/">Blob分析</a></span></div><div class="content">
-功能：检测焊料缺失的位置和数量。THIK：这个完整区域是由多张图像拼成的，实际应用中最好有真正完整的模板图像。
-
-12345678910111213141516171819202122232425262728293031323334353637383940414243444546* 启用区域剪裁get_system (&#x27;clip_region&#x27;, Information)set_system (&#x27;clip_region&#x27;, &#x27;true&#x27;)* 读取图像并合并read_image (Images, [&#x27;ic0&#x27;, &#x27;ic1&#x27;, &#x27;ic2&#x27;, &#x27;ic3&#x27;])channels_to_image (Images, Ic)select_obj (Images, Input1, 1)select_obj (Images, Input2, 2)select_obj (Images, Input3, 3)select_obj (Images, Input4, 4) ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/22/%E5%85%89%E5%BA%A6%E7%AB%8B%E4%BD%93%E6%B3%95/" title="光度立体法检测缺陷">光度立体法检测缺陷</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-21T16:00:00.000Z" title="发表于 2024-10-22 00:00:00">2024-10-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95%EF%BC%8C%E5%85%89%E5%BA%A6%E7%AB%8B%E4%BD%93%E6%B3%95/">Halcon方法，光度立体法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95%EF%BC%8C%E7%BC%BA%E9%99%B7%E6%A3%80%E6%B5%8B/">Halcon方法，缺陷检测</a></span></div><div class="content">
-功能：光度立体法主要应用于物体表面瑕疵检测以及三维重建。本文主要讲述它在表面检测领域的应用。
-
-对于物体表面的微小瑕疵，从不同角度打光，成像效果自然有好有坏。光度立体法基于多种角度打光的图像，计算图像的梯度
-
-初始化
-12345678910dev_close_window ()dev_update_off ()dev_open_window (0, 0, 640, 512, &#x27;black&#x27;, WindowHandle)set_display_font (WindowHandle, 14, &#x27;mono&#x27;, &#x27;true&#x27;, &#x27;false&#x27;)Message := &#x27;Inspect the label of flooring panels&#x27;Message[1] := &#x27;using photometric stereo. In this case four&#x27;Message[2] := &#x27;different light orientations were used.& ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/22/%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A/" title="相机标定.hdev">相机标定.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-21T16:00:00.000Z" title="发表于 2024-10-22 00:00:00">2024-10-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95%EF%BC%8C%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A/">Halcon方法，相机标定</a></span></div><div class="content">TODO
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/21/2D%E6%88%963D%E6%89%8B%E7%9C%BC%E6%A0%87%E5%AE%9A-9%E7%82%B9%E6%A0%87%E5%AE%9A/" title="2D/3D手眼标定——9点标定.hdev">2D/3D手眼标定——9点标定.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-20T16:00:00.000Z" title="发表于 2024-10-21 00:00:00">2024-10-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E6%89%8B%E7%9C%BC%E6%A0%87%E5%AE%9A/">手眼标定</a></span></div><div class="content">
-前言：手眼标定和相机标定是两个东西。手眼标定，主要用来建立相机的像素坐标系和机械臂的世界坐标系之间的转换关系。相机标定，主要用来矫正相机自身的透镜畸变
-
-手眼标定理论：参考博客
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748dev_update_off ()read_image (Image, &#x27;C:/Users/19901/Desktop/DemoPic/九点标定.jpeg&#x27;)rgb1_to_gray (Image, GrayImage)* 检测圆，以确定相机坐标系下的9点坐标threshold (GrayImage, Regions, 13, 71)fill_up_shape (Regions, WiresFilled, &#x27;area&#x27;, 1, 100)opening_circle (WiresFilled, Balls, 15.5)connection (Balls, SingleBalls)select_shap ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/11/C#%E7%9A%84%E5%AE%9E%E4%BE%8B%E5%8C%96/" title="C&amp;#35;的实例化">C&amp;#35;的实例化</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-11T08:18:00.000Z" title="发表于 2024-10-11 16:18:00">2024-10-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/c/">c#</a></span></div><div class="content">
-在 C# 中，类是一种抽象的模板，定义了对象的属性和行为，但不能直接使用。要使用类，必须通过 new 进行实例化，即在内存(堆)中创建类的具体实例，称为对象。
-
-new 操作符的作用是：分配内存：在堆上为对象分配内存。调用构造函数：初始化对象的属性和状态。垃圾回收：C# 的对象由垃圾回收器（GC）管理，程序员不需要手动释放内存。
-1234567891011121314class Car&#123;    public string make;    public string model;        // 构造函数    public Car(string make, string model)    &#123;        this.make = make;        this.model = model;    &#125;&#125;// 调用构造函数Car myCar = new Car(&quot;Toyota&quot;, &quot;Corolla&quot;);  
-
-相比之下，C++ 可以直接在栈上创建对象而不需要 new，但如果在堆上创建对象（用 ne ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/11/HALCON%E4%B8%8EC#%E8%81%94%E5%90%88%E7%BC%96%E7%A8%8B/" title="Halcon与C#联合编程">Halcon与C#联合编程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-11T06:38:00.000Z" title="发表于 2024-10-11 14:38:00">2024-10-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/HALCON%E4%B8%8Ec-%E8%81%94%E5%90%88%E7%BC%96%E7%A8%8B/">HALCON与c#联合编程</a></span></div><div class="content">
-Halcon版本：24.05Visual Studio版本：2022
 
 
 
-主要有三种方式：
-
-导出 HALCON 工程并嵌入 C#，例如 WinFrom中。
-使用 HalconDotNet，在 C#中调用 HALCON算子。
-使用 HDevEngine，加载和执行 .hdev文件
-
+    
+    
+        
+    
 
 
-第一种halcon做后端算法，c#做前端界面，界面可用WinFrom、WPF实现。这里以WinFrom为例。
+<meta name="generator" content="Hexo 7.3.0"></head>
 
-配置环境变量
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
 
-移动文件halcondotnet.dll和halcon.dll，至WinFrom项目的Bin目录下
-
-创建WinFrom，更改属性，“项目 —&gt; WindowsFromApp1和属性 —&gt; 生成 —&gt; 首选32位” ，取消勾选“首选32位”。
-
-创建HWC和botton，修改基本属性
-
-创建WinFrom后， “工具 —&gt; 选择工具箱 —&gt; 浏览” ，添加halcondotnet.dll
-
-引用halcondotnet.dll，“右键引用 —&gt; 添加引用 —&gt; 浏览”
-
-导出HALCON工程文件
-
-导入WinFrom，“右键工程 — ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/11/ball.hdev/" title="ball.hdev">ball.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-11T06:38:00.000Z" title="发表于 2024-10-11 14:38:00">2024-10-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/">Blob分析</a></span></div><div class="content">
-功能：识别电路板上的黑色圆形焊点。THIK：对于结果确定为圆形的对象，可以用Blob的最小外接圆作为最终结果。类似于适用XLD对象的fit_circle_contour_xld。
-
-
-窗口和图像初始化12345678dev_update_window (&#x27;off&#x27;)dev_close_window ()dev_open_window (0, 0, 728, 512, &#x27;black&#x27;, WindowID)read_image (Bond, &#x27;die/die_03&#x27;)dev_display (Bond)set_display_font (WindowID, 14, &#x27;mono&#x27;, &#x27;true&#x27;, &#x27;false&#x27;)disp_continue_message (WindowID, &#x27;black&#x27;, &#x27;true&#x27;)stop ()
-图像预处理12345678910111213141516171819* 可以学习一下，某种意义上的自动生成R ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/11/autobahn.hdev/" title="autobahn.hdev">autobahn.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-11T05:19:00.000Z" title="发表于 2024-10-11 13:19:00">2024-10-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/">Blob分析</a></span></div><div class="content">
-功能：  快速检测道路上的车道线。THIK：使用栅格限制处理范围，加速计算。程序在有车的地方，还是存在一点误判。（PS：图像有点太理想了，灰度值在190之上的除了道路线、车和天空，几乎没什么噪声。）
-
-
-初始化1234567891011121314151617dev_update_window (&#x27;off&#x27;)dev_close_window ()dev_open_window (0, 0, 768, 575, &#x27;black&#x27;, WindowID)MinSize := 30* 使得在创建新图像时，不自动初始化get_system (&#x27;init_new_image&#x27;, Information)set_system (&#x27;init_new_image&#x27;, &#x27;false&#x27;)* 生成并裁剪栅格区域，用于车道线检测gen_grid_region (Grid, MinSize, MinSize, &#x27;lines&#x27;, 512, 512)clip_region (Grid, Street ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/11/3d_position_of_rectangle.hdev/" title="3d_position_of_rectangle.hdev">3d_position_of_rectangle.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-11T02:24:00.000Z" title="发表于 2024-10-11 10:24:00">2024-10-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/">Blob分析</a></span></div><div class="content">
-功能：识别图像中的矩形并进行姿态估计THIK：判断并剔除了矩形和图像边缘相交的情况。通过面积判断相交的方法可学。
-
-
-初始化：保留空区域，设置窗口
-1234567891011121314151617181920Width := 800Height := 800RectWidth := 0.095RectHeight := 0.035get_system (&#x27;clip_region&#x27;, ClipRegion)get_system (&#x27;store_empty_region&#x27;, StoreEmptyRegion)get_system (&#x27;empty_region_result&#x27;, EmptyRegionResult)* 禁用区域裁剪（默认情况下，如果区域超过图像边界，Halcon会自动将其裁剪到图像范围内。）set_system (&#x27;clip_region&#x27;, &#x27;false&#x27;)、* 允许空区域的存储，避免处理它时产生错误set_system (&#x27;store_empty_region ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/09/3d_coordinates.hdev/" title="3d_coordinates.hdev">3d_coordinates.hdev</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-09T09:14:31.000Z" title="发表于 2024-10-09 17:14:31">2024-10-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/">Halcon方法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/">Halcon示例程序</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A/">相机标定</a></span></div><div class="content">关于相机标定的详细解释，请参考：Halcon相机标定
-
-
-功能：相机在3D空间的标定，对象会倾斜和旋转。THIK：标定的主要目的是确定相机的参数CamParam（如焦距、主点坐标、畸变系数、相机在世界坐标系中的位置和姿态等）。这些参数是准确测量和3D重建的基础。标定后测量标定板的边距与标志点的直径，并通过测量结果的标准差反映标定效果。
-
-
-设置窗口
-123456dev_close_window ()dev_open_window (0, 0, 768, 576, &#x27;black&#x27;, WindowHandle)dev_update_off ()dev_set_draw (&#x27;margin&#x27;)dev_set_line_width (3)set_display_font (WindowHandle, 14, &#x27;mono&#x27;, &#x27;true&#x27;, &#x27;false&#x27;)
-
-创建标定数据和相机参数，读取多张标定图像并寻找标定板，提取并显示标定板的轮廓与位置，最后进行相机标定，计算出相机参数。
-1234567891 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">govT</div><div class="author-info__description">Keep</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">21</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/TCP%E5%AE%A2%E6%88%B7%E7%AB%AF/" title="TCP客户端">TCP客户端</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/tiff%E8%BD%ACpng/" title="tiff转png">tiff转png</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E5%8D%A1%E5%B0%BA%E5%B7%A5%E5%85%B7%E6%A3%80%E6%B5%8B%E5%9C%86/" title="卡尺工具检测圆">卡尺工具检测圆</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E5%9C%86%E5%BD%A2%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/" title="圆形划痕检测">圆形划痕检测</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/28/%E6%9D%A1%E7%8A%B6%E7%BA%B9%E7%90%86%E4%B8%8A%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/" title="条状纹理上划痕检测">条状纹理上划痕检测</a><time datetime="2024-10-27T16:00:00.000Z" title="发表于 2024-10-28 00:00:00">2024-10-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
-            <i class="fas fa-folder-open"></i>
-            <span>分类</span>
-            <a class="card-more-btn" href="/categories/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">govT&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACM/"><span class="card-category-list-name">ACM</span><span class="card-category-list-count">17</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/HALCON%E4%B8%8Ec-%E8%81%94%E5%90%88%E7%BC%96%E7%A8%8B/"><span class="card-category-list-name">HALCON与c#联合编程</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon/"><span class="card-category-list-name">Halcon</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon/Halcon%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/"><span class="card-category-list-name">Halcon示例程序</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/"><span class="card-category-list-name">Halcon方法</span><span class="card-category-list-count">14</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/Blob%E5%88%86%E6%9E%90/"><span class="card-category-list-name">Blob分析</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E5%88%92%E7%97%95%E6%A3%80%E6%B5%8B/"><span class="card-category-list-name">划痕检测</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Halcon%E6%96%B9%E6%B3%95/%E5%9B%BE%E5%83%8F%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/"><span class="card-category-list-name">图像格式转换</span><span class="card-category-list-count">1</span></a></li></ul></li>
-            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">21</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/11/"><span class="card-archive-list-date">十一月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/09/"><span class="card-archive-list-date">九月 2021</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">38</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-10-28T01:54:16.734Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By govT</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">govT&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                
+    <div class="container profile-container">
+    <div class="intro">
+        <div class="avatar">
+            <a href="/archives"><img src="/image/avatar.jpeg"></a>
+        </div>
+        <div class="nickname">govT</div>
+        <div class="description"><p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> <br>Fusce eget urna vitae velit <em>eleifend interdum at ac</em> nisi.</p>
+</div>
+        <div class="links">
+            
+                
+                    <a class="link-item" title="Blog" href="/archives">
+                        
+                        
+                            <i class="iconfont icon-blog"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="ZhiHu" target="_blank" rel="noopener" href="https://www.zhihu.com/people/sirice">
+                        
+                        
+                            <i class="iconfont icon-zhihu"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Instagram" href="">
+                        
+                        
+                            <i class="iconfont icon-instagram"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Reddit" href="">
+                        
+                        
+                            <i class="iconfont icon-reddit"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Github" target="_blank" rel="noopener" href="https://github.com">
+                        
+                        
+                            <i class="iconfont icon-github"></i>
+                        
+                    </a>
+                
+            
+        </div>
+    </div>
+</div>
+
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© govT | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
